@@ -159,6 +159,10 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+h5 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -181,6 +185,8 @@ body {
   margin: 0 auto;
   margin-right: 0;
   margin-top: 2%;
+  font-weight: bold;
+  font-size: 2rem;
 }
 .navigation nav {
   display: flex;
@@ -197,11 +203,15 @@ body {
 }
 footer address {
   line-height: 1.5;
-  font-size: 1.6rem;
   padding-top: 10px;
+  font-weight: bold;
+  font-size: 2rem;
 }
 footer p {
   text-align: center;
+}
+.footer-line {
+  border-top: dashed #AFAFAF;
 }
 div.top-content {
   display: flex;
@@ -281,5 +291,38 @@ div.bottom-text h3 {
 div.top-text,
 .mid-text,
 .bottom-text {
+  margin: 2%;
   background-color: #f8ed82;
+}
+/* About us css*/
+img.photo-img {
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 300px;
+}
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6,
+.photo7 {
+  display: flex;
+  padding: 3%;
+}
+.para,
+strong {
+  padding: 3%;
+  background-color: #f8ed82;
+  margin: 2%;
+}
+.photo2,
+.photo4,
+.photo6 {
+  flex-direction: row-reverse;
+}
+p strong {
+  font-weight: bold;
+  font-size: 2rem;
 }
