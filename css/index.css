@@ -197,7 +197,7 @@ div.top-content {
   padding-top: 3%;
 }
 .top-img {
-  max-width: 25%;
+  max-width: 40%;
 }
 div.top-text {
   flex-direction: column;
@@ -207,7 +207,7 @@ div.mid-content {
   padding-top: 3%;
 }
 .mid-img {
-  max-width: 30%;
+  max-width: 40%;
 }
 div.mid-text {
   flex-direction: column;
@@ -216,6 +216,22 @@ div.mid-text {
 h3.family-log {
   text-align: end;
 }
-.bottom-img {
-  max-width: 100%;
+img.bottom-img {
+  padding-top: 3%;
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+}
+div.bottom-text {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: dashed #AFAFAF;
+}
+footer address {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-top: 10px;
+}
+footer p {
+  text-align: center;
 }
