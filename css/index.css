@@ -350,6 +350,7 @@ p strong {
 }
 .title {
   margin-top: 10%;
+  position: relative;
 }
 .title-aboutus {
   margin-top: 17%;
