@@ -178,9 +178,8 @@ img {
   margin: 0 auto;
 }
 body {
-  background-image: url(../images/blueline.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 50%;
+  background-image: linear-gradient(#AFAFAF, white);
 }
 .navigation {
   width: 100%;
@@ -195,7 +194,7 @@ body {
   justify-content: center;
   justify-content: space-between;
   padding-bottom: 3%;
-  border-bottom: dashed #AFAFAF;
+  border-bottom: dashed black;
 }
 .navigation nav a {
   text-decoration: none;
@@ -213,7 +212,7 @@ footer p {
   text-align: center;
 }
 .footer-line {
-  border-top: dashed #AFAFAF;
+  border-top: dashed black;
 }
 div.top-content {
   display: flex;
